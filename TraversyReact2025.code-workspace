@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "TraversyReact2025",
+			"path": "."
+		},
+		{
+			"name": "rating-ui",
+			"path": "rating-ui"
+		},
+		{
+			"name": "notes-app",
+			"path": "notes-app"
+		},
+		{
+			"name": "simple-timer",
+			"path": "simple-timer"
+		},
+		{
+			"name": "crypto-dash",
+			"path": "crypto-dash"
+		}
+	],
+	"settings": {}
+}

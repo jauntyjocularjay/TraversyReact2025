@@ -19,6 +19,9 @@
 		{
 			"name": "crypto-dash",
 			"path": "crypto-dash"
+		},
+		{
+			"path": "cart-ui"
 		}
 	],
 	"settings": {}

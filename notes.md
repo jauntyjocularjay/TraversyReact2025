@@ -67,5 +67,36 @@ the `useEffect` hook uses these lifecycle points. Renders the state live.
 
 `useEffect` is used to fetch data from APIs
 
+## New Vite Project
 
+### npm
+
+```
+npm create vite@latest
+```
+
+### yarn
+
+```
+yarn create vite
+```
+
+## Context API
+
+Used to make global state values accessible to all components.
+
+1. Create a context object
+```javascript
+const ThemeContext = React.createContext()
+```
+2. Provide a value with a provider
+```javascript
+<ThemeContext.Provider value {{ theme: 'dark' }}>
+    <App />
+</ThemeContext.Provider>
+```
+3. Consume with `useContext` hook
+```javascript
+const { theme } = useContext(ThemeContext)
+```
 

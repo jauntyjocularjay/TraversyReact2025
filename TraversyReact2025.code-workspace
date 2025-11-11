@@ -21,6 +21,7 @@
 			"path": "crypto-dash"
 		},
 		{
+			"name": "cart-ui",
 			"path": "cart-ui"
 		}
 	],

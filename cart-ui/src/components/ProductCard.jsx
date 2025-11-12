@@ -1,3 +1,5 @@
+import AddToCartButton from './AddToCartButton'
+
 
 export default function ProductCard({product}) {
   return (
@@ -12,6 +14,7 @@ export default function ProductCard({product}) {
           <h2 className='text-xl font-semibold'>{product.name}</h2>
           <p className='text-gray-300 text-sm mb-2'>{product.description}</p>
           <p className='font-bold text-lg'>${product.price.toFixed(2)}</p>
+          <AddToCartButton product={product}  />
       </div>
   )
 }

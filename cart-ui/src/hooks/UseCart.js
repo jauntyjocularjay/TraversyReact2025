@@ -3,6 +3,6 @@ import { CartContext } from '../context/CartContext'
 
 
 
-export default function UseCart(){
+export default function useCart(){
     return useContext(CartContext)
 }
